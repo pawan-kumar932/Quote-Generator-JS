@@ -1,0 +1,90 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+h2{
+    margin-left: 50px;
+    line-height: 40px;
+    background-color:#007bff;
+    color: #f0f0f0;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.3s;
+    box-shadow: 10px 10px 15px #004085;
+
+}
+h2:hover{
+    background-color: #0056b3;
+    transform: translateX(-20px);
+
+}
+body {
+    background-color: #f0f0f0; /* Halka grey background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: #ffffff; /* Safed card */
+    padding: 40px;
+    border: 2px solid #ddd; /* Patli border */
+    border-radius: 15px;
+    text-align: center;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+    max-width: 450px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.4); /* Bilkul halki shadow */
+}
+
+h1 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-weight: 500;
+    font-style: oblique;
+    flex-grow: 20; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff; /* Standard Blue color */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+    align-self: center;
+}
+
+/* Button par mouse le jane par thoda dark hoga */
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Button dabane par thoda effect */
+button:active {
+    background-color: #004085;
+    transform: translateY(0);
+}
